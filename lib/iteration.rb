@@ -31,6 +31,7 @@ def find_greater_pair(src)
     else
       greater_number.push(src[row_index][1])
     end
+    row_index += 1
   end  
   greater_number
 end
